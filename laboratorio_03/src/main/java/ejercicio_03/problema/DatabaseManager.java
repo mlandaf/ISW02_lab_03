@@ -14,7 +14,7 @@ public class DatabaseManager {
     private GameConfig config;
 
     public DatabaseManager() {
-        this.config = new GameConfig(); // ❌ Tercera instancia
+        this.config = new GameConfig(); //  Tercera instancia
         config.setDatabaseUrl("jdbc:mysql://production:3306/gamedb"); // Configuración diferente
     }
 

@@ -14,7 +14,7 @@ public class GameConfig {
     private boolean debugMode;
     private int maxPlayers;
 
-    // ❌ Constructor público permite múltiples instancias
+    // Constructor público permite múltiples instancias
     public GameConfig() {
         this.databaseUrl = "jdbc:mysql://localhost:3306/gamedb";
         this.debugMode = false;
